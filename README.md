@@ -20,8 +20,8 @@ class Talent
 /*
  * Un constructeur de la class Talent
  * les identifiants d'un talent (son nom age etc....)
- * les methodes getName(), getFirstName(), getAge(), getLevel(), getSpecializationCourse() which return the name, first name, the old, level and specialization course.
- * 
+ * les methodes getName(), getFirstName(), getAge(), getLevel() which return the name, first name, the old, level 
+ * pour la  foction getSpecializationCourse() nous l'avons remplacer par l'utlisation de la classe course et de ses class filles JavaCourse et JavaSccriptCourse qui permettent d'ajouter un etudiant a un cours et d'afficher le cours d'un etudiant.
  */
 
 class TalentForeign
